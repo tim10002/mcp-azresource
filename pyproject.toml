@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "azure-resource-mcp-server"
+version = "0.1.0"
+description = "Azure Resource Service MCP Server"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp[cli]~=1.4.1",
+    "azure-identity~=1.21.0",
+    "python-dotenv~=1.0.1",
+    "azure-mgmt-resource>=23.3.0",
+    "aiohttp>=3.11.14",
+]

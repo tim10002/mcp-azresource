@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+src/azure_resource_mcp_server.egg-info/PKG-INFO
+src/azure_resource_mcp_server.egg-info/SOURCES.txt
+src/azure_resource_mcp_server.egg-info/dependency_links.txt
+src/azure_resource_mcp_server.egg-info/requires.txt
+src/azure_resource_mcp_server.egg-info/top_level.txt
+src/python/azure_resource_mcp_server/__main__.py
