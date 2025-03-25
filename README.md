@@ -1,8 +1,8 @@
 # Azure Resource MCP Server
 This MCP server provides tools for listing and querying Azure resources directly from any MCP client, allowing you to efficiently browse your Azure infrastructure and analyze costs without leaving your workflow.
 
-![demo](image\list_azure_resources.gif)
-![demo](image\get_azure_costs_rest.gif)
+![demo](image/list_azure_resources.gif)
+![demo](image/get_azure_costs_rest.gif)
 
 ## Features
 
