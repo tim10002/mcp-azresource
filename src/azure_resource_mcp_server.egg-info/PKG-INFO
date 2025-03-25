@@ -1,8 +1,17 @@
+Metadata-Version: 2.4
+Name: azure-resource-mcp-server
+Version: 0.1.0
+Summary: Azure Resource Service MCP Server
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: mcp[cli]~=1.4.1
+Requires-Dist: azure-identity~=1.21.0
+Requires-Dist: python-dotenv~=1.0.1
+Requires-Dist: azure-mgmt-resource>=23.3.0
+Requires-Dist: aiohttp>=3.11.14
+
 # Azure Resource MCP Server
 This MCP server provides tools for listing and querying Azure resources directly from any MCP client, allowing you to efficiently browse your Azure infrastructure and analyze costs without leaving your workflow.
-
-![demo](image\list_azure_resources.gif)
-![demo](image\get_azure_costs_rest.gif)
 
 ## Features
 
