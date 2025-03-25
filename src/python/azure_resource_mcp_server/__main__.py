@@ -7,7 +7,7 @@ import asyncio
 import aiohttp
 from dotenv import load_dotenv
 from datetime import datetime
-from mcp.server.fastmcp import FastMCP
+from mcp.server.fastmcp import FastMCP # type: ignore
 from azure.identity.aio import ClientSecretCredential
 from azure.mgmt.resource.resources.aio import ResourceManagementClient
 from azure.core.exceptions import AzureError
