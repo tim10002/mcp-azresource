@@ -35,7 +35,7 @@ This is an example of how to query Azure cost:
 
 ### Setting up Azure
 
-1. Create an Azure service principal for authentication
+1. Create an Azure service principal for authentication: 'az ad sp create-for-rbac --name {service principal name}'
 2. Assign appropriate reader permissions to the service principal
 3. Note your Azure subscription ID, tenant ID, client ID, and client secret
 4. Set up the required environment variables
@@ -111,7 +111,8 @@ To use with Claude Desktop, add the following to your configuration file:
 To list all resources in the default subscription:
 
 ```
-@azure-resource list_azure_resources
+
+
 ```
 
 With resource group filtering:
